@@ -8,7 +8,7 @@ import android.util.Log;
 import android.view.MotionEvent;
 
 /**
- * RecyclerView -ViewPage-RecyclerView  解决冲突
+ * RecyclerView -ViewPage-RecyclerView  内层嵌套的RV,   解决上下滑动冲突
  */
 public class RVVPRecyclerView extends RecyclerView {
     public RVVPRecyclerView(Context context) {
