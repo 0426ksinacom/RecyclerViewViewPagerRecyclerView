@@ -33,7 +33,4 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'com.android.support:recyclerview-v7:27.1.1'
     implementation 'com.android.support:design:27.1.1'
-    compile('com.alibaba.android:vlayout:1.2.12@aar') {
-        transitive = true
-    }
 }

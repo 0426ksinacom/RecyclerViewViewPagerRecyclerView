@@ -10,8 +10,6 @@ import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-import com.alibaba.android.vlayout.DelegateAdapter;
-import com.alibaba.android.vlayout.VirtualLayoutManager;
 import com.ht.testlist.adapter.MainAdapter;
 import com.ht.testlist.adapter.PagerListAdapter;
 import com.ht.testlist.fragment.PagerFragment;

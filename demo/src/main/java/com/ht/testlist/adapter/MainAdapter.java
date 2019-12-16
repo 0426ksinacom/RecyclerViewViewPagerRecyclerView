@@ -13,9 +13,6 @@ import android.view.ViewGroup;
 import android.widget.TableLayout;
 import android.widget.TextView;
 
-import com.alibaba.android.vlayout.DelegateAdapter;
-import com.alibaba.android.vlayout.LayoutHelper;
-import com.alibaba.android.vlayout.layout.LinearLayoutHelper;
 import com.ht.testlist.R;
 import com.ht.testlist.fragment.PagerFragment;
 import com.ht.testlist.holder.PageViewHolder;
@@ -27,7 +24,7 @@ import java.util.List;
  * My email : logisong@163.com
  * The role of this :
  */
-public class MainAdapter extends DelegateAdapter.Adapter {
+public class MainAdapter extends RecyclerView.Adapter {
 
     private FragmentManager fragmentManager;
     private List<String> titles;
@@ -127,10 +124,7 @@ public class MainAdapter extends DelegateAdapter.Adapter {
         }
     }
 
-    @Override
-    public LayoutHelper onCreateLayoutHelper() {
-        return new LinearLayoutHelper();
-    }
+
 
     public class MainViewHolder extends RecyclerView.ViewHolder {
         public TextView tv;
